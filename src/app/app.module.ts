@@ -13,6 +13,9 @@ import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RecipeComponent } from './recipe/recipe.component';
+import { GaleriaComponent } from './galeria/galeria.component';
+import { AlbumComponent } from './album/album.component';
+import { AlbumNameComponent } from './album-name/album-name.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { RecipeComponent } from './recipe/recipe.component';
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
-    RecipeComponent
+    RecipeComponent,
+    GaleriaComponent,
+    AlbumComponent,
+    AlbumNameComponent
   ],
   imports: [
     BrowserModule,
